@@ -55,6 +55,8 @@ class ProofreadPage
   image(:original_size, :title => 'Original size')
   #image(:show_hide, :title, => "Show/hide this page's header and footer")
   image(:vertical_horizontal, :title => 'Vertical/horizontal layout')
+
+  link(:cancel, :text => 'Cancel')
   
 end
 
